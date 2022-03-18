@@ -1,48 +1,87 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0 0 40PX 0;
-}
-.display-4{
-    color: #808080 ;
+    background-color: #9c76f3a6;
 }
 
-/* carrusel */
-
-.carousel-inner img {
-    width: 100%;
-    max-height: 100%;
+/* ? medidas caurruse */
+.container_carrusel{
+    
+    
+    height: 80%;
+    width: 400px;
+    margin: 0 auto ;
+      
+          
 }
-
-.carousel-inner{
- height: 600px;
- max-height: 100%;
-}
-
-/* columnas */
 .container{
-    padding-top: 3rem ;
+    margin-top: 3rem;
 }
 
-.col01 p{
-    background: #11e7a7;
-    color: #41463D;
-    border-radius: 30px;
-    padding: 20px;
+/* ? cartas */
+.cartas_uno{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    
+} 
+
+.cartas_dos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.card{
+    /* -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); */
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+    border-radius: 5%;
+}
+
+/* .card-body{
+    background-color: blueviolet;
+    border-color: blueviolet;
+} */
+/* formulario */
+.mb-3{
+    padding: 0 10rem 0 10rem;
+}
+
+/* icono */
+.icono img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* columna */
+.col{
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+    margin: 3rem;
+    border-radius: 5%;
+
+}
+
+/* menu */
+.menu{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+/* descargas */
+.descarga{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    
+}
+
+
+
+.descarga p{
     text-align: justify;
 }
-.col02 p{
-    background: #B8CDF8;
-    color: #41463D;;
-    border-radius: 30px;
-    padding: 20px;
-    text-align: justify;
-}
-.col03 p{
-    background: #9D6DF1;
-    color: #41463D;;
-    border-radius: 30px;
-    padding: 20px;
-    text-align: justify;
-    font-family: 'Poppins', sans-serif;
+.descarga_info{
+    width: 42%;
+    margin-top: 15rem;
 }
